@@ -18,6 +18,7 @@ li{
 .holder{
     display: flex;
     color: #fff;
+    flex-wrap: wrap;
     padding: 15px 70px;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -50,6 +51,7 @@ li{
     color: #fff;
     font-size: 40px;
     text-align: center;
+    flex-direction: column;
 }
 .main-para h1:hover{
     background: rgb(131,58,180);
@@ -59,3 +61,35 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     background-color: coral;
     padding: 8px 12px;
 }
+.libg:hover{
+    background-color: brown;
+}
+button{
+    background-color: rgb(211, 104, 65);
+    width: 250px;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 2px 8px ;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(206, 114, 80);
+}
+
+
+@media only screen and (max-width: 900px) {
+    .icons{
+        width: 100%;
+    }
+    .icons a{
+        font-size: 10px;
+    }
+    .ofc{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+  
